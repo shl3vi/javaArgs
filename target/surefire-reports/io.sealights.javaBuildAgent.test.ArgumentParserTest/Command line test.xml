@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="DESKTOP-H5E6C4P" name="io.sealights.javaBuildAgent.test.ArgumentParserTest" tests="4" failures="4" timestamp="24 Feb 2016 21:58:42 GMT" time="0.031" errors="0">
+  <testcase name="DontGiveModeArgs_shouldGiveHelpText" time="0.0" classname="io.sealights.javaBuildAgent.test.ArgumentParserTest">
+    <failure type="org.testng.TestException" message="
+Expected exception org.apache.commons.cli.ParseException but got org.testng.TestException: 
+The exception was thrown with the wrong message: expected &amp;quot;Missing required option: javaclassprefix&amp;quot; but got &amp;quot;Missing required options: server, javaclassprefix&amp;quot;">
+      <![CDATA[org.testng.TestException: 
+The exception was thrown with the wrong message: expected "Missing required option: javaclassprefix" but got "Missing required options: server, javaclassprefix"
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:110)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+The exception was thrown with the wrong message: expected "Missing required option: javaclassprefix" but got "Missing required options: server, javaclassprefix"
+	... 26 more
+Caused by: org.apache.commons.cli.MissingOptionException: Missing required options: server, javaclassprefix
+	at org.apache.commons.cli.DefaultParser.checkRequiredOptions(DefaultParser.java:199)
+	at org.apache.commons.cli.DefaultParser.parse(DefaultParser.java:130)
+	at org.apache.commons.cli.DefaultParser.parse(DefaultParser.java:76)
+	at org.apache.commons.cli.DefaultParser.parse(DefaultParser.java:60)
+	at io.sealights.javaBuildAgent.args.ArgsParserWrapper.createConfigArgumentsObject(ArgsParserWrapper.java:47)
+	at io.sealights.javaBuildAgent.args.ArgsParserWrapper.getArguments(ArgsParserWrapper.java:31)
+	at io.sealights.javaBuildAgent.test.ArgumentParserTest.DontGiveModeArgs_shouldGiveHelpText(ArgumentParserTest.java:64)
+	... 28 more
+... Removed 32 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="giveGoodInput" time="0.0" classname="io.sealights.javaBuildAgent.test.ArgumentParserTest">
+    <failure type="org.apache.commons.cli.MissingOptionException" message="Missing required options: server, javaclassprefix">
+      <![CDATA[org.apache.commons.cli.MissingOptionException: Missing required options: server, javaclassprefix
+	at org.apache.commons.cli.DefaultParser.checkRequiredOptions(DefaultParser.java:199)
+	at org.apache.commons.cli.DefaultParser.parse(DefaultParser.java:130)
+	at org.apache.commons.cli.DefaultParser.parse(DefaultParser.java:76)
+	at org.apache.commons.cli.DefaultParser.parse(DefaultParser.java:60)
+	at io.sealights.javaBuildAgent.args.ArgsParserWrapper.createConfigArgumentsObject(ArgsParserWrapper.java:47)
+	at io.sealights.javaBuildAgent.args.ArgsParserWrapper.getArguments(ArgsParserWrapper.java:31)
+	at io.sealights.javaBuildAgent.test.ArgumentParserTest.giveGoodInput(ArgumentParserTest.java:21)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:110)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+... Removed 26 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="givefalseArgument_shouldGetParseException" time="0.015" classname="io.sealights.javaBuildAgent.test.ArgumentParserTest">
+    <failure type="org.testng.TestException" message="
+Expected exception org.apache.commons.cli.ParseException but got org.testng.TestException: 
+The exception was thrown with the wrong message: expected &amp;quot;Unrecognized option: -falsearg&amp;quot; but got &amp;quot;Missing required options: server, javaclassprefix&amp;quot;">
+      <![CDATA[org.testng.TestException: 
+The exception was thrown with the wrong message: expected "Unrecognized option: -falsearg" but got "Missing required options: server, javaclassprefix"
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:110)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+The exception was thrown with the wrong message: expected "Unrecognized option: -falsearg" but got "Missing required options: server, javaclassprefix"
+	... 26 more
+Caused by: org.apache.commons.cli.MissingOptionException: Missing required options: server, javaclassprefix
+	at org.apache.commons.cli.DefaultParser.checkRequiredOptions(DefaultParser.java:199)
+	at org.apache.commons.cli.DefaultParser.parse(DefaultParser.java:130)
+	at org.apache.commons.cli.DefaultParser.parse(DefaultParser.java:76)
+	at org.apache.commons.cli.DefaultParser.parse(DefaultParser.java:60)
+	at io.sealights.javaBuildAgent.args.ArgsParserWrapper.createConfigArgumentsObject(ArgsParserWrapper.java:47)
+	at io.sealights.javaBuildAgent.args.ArgsParserWrapper.getArguments(ArgsParserWrapper.java:31)
+	at io.sealights.javaBuildAgent.test.ArgumentParserTest.givefalseArgument_shouldGetParseException(ArgumentParserTest.java:40)
+	... 28 more
+... Removed 32 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="skipRequiredArg_shouldGetParseException" time="0.0" classname="io.sealights.javaBuildAgent.test.ArgumentParserTest">
+    <failure type="org.testng.TestException" message="
+Expected exception org.apache.commons.cli.ParseException but got org.testng.TestException: 
+The exception was thrown with the wrong message: expected &amp;quot;Missing required option: javaclassprefix&amp;quot; but got &amp;quot;Missing required options: server, javaclassprefix&amp;quot;">
+      <![CDATA[org.testng.TestException: 
+The exception was thrown with the wrong message: expected "Missing required option: javaclassprefix" but got "Missing required options: server, javaclassprefix"
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:110)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+The exception was thrown with the wrong message: expected "Missing required option: javaclassprefix" but got "Missing required options: server, javaclassprefix"
+	... 26 more
+Caused by: org.apache.commons.cli.MissingOptionException: Missing required options: server, javaclassprefix
+	at org.apache.commons.cli.DefaultParser.checkRequiredOptions(DefaultParser.java:199)
+	at org.apache.commons.cli.DefaultParser.parse(DefaultParser.java:130)
+	at org.apache.commons.cli.DefaultParser.parse(DefaultParser.java:76)
+	at org.apache.commons.cli.DefaultParser.parse(DefaultParser.java:60)
+	at io.sealights.javaBuildAgent.args.ArgsParserWrapper.createConfigArgumentsObject(ArgsParserWrapper.java:47)
+	at io.sealights.javaBuildAgent.args.ArgsParserWrapper.getArguments(ArgsParserWrapper.java:31)
+	at io.sealights.javaBuildAgent.test.ArgumentParserTest.skipRequiredArg_shouldGetParseException(ArgumentParserTest.java:52)
+	... 28 more
+... Removed 32 stack frames]]>
+    </failure>
+  </testcase>
+</testsuite>

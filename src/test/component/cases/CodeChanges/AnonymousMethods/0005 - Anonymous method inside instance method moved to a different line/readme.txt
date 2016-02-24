@@ -1,0 +1,1 @@
+In this app, an anonymous method inside the getSalary() method is moved. The test should verify that the hash of the anonymous method doesn't change.

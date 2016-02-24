@@ -1,0 +1,1 @@
+In this app the @CustomAnnotationA annotation is added to the TestMe field. The test should verify that the hash of the constructor changes.

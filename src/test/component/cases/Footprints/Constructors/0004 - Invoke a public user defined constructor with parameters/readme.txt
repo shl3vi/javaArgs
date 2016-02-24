@@ -1,0 +1,1 @@
+Should verify the structure and content of the footprints, for a basic console application. In this app we create an instance from the Person class and verify that footprints for the user defined constructor which recieves a String and an Int are sent as expected.

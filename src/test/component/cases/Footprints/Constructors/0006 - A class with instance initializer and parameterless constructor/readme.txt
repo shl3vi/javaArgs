@@ -1,0 +1,1 @@
+Should verify the structure and content of the footprints, for a basic console application thats uses a class with Instance Initializer and Parameterless Constructor (both should send footprints).

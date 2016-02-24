@@ -1,0 +1,1 @@
+In this app, the Employee inner class changes from public to private. The test should verify that the hash of the constructor changes.

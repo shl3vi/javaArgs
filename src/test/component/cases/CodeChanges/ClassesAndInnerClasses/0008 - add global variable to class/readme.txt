@@ -1,0 +1,1 @@
+In this app, add a global variable to class. The test should verify that the hash of the constructor changed.

@@ -1,0 +1,1 @@
+Should verify the structure and content of the footprints, for a basic console application thats uses inheritance. In this app a new instance of DerivedClass is created and from its constructor we call a constructor (with parameters) of the base class using the "super" keyword.

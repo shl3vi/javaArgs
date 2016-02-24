@@ -1,0 +1,1 @@
+In this app, an anonymous "bridge" method inside the STATIC getSalary() method changes . The test should verify that the hash of the anonymous method changes.

@@ -1,0 +1,1 @@
+In this app the we change an operand in the method. The test should verify that the hash of the method changes.

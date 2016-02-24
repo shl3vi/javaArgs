@@ -1,0 +1,1 @@
+In this app, the Employee class inherits from the Person class, which in turn changed to implement the IDoWork interface. The test should verify that the hash of Person's constructor changes, thus ensuring that derived classes will be affected.

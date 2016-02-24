@@ -1,0 +1,1 @@
+In this app the @CustomAnnotationA() annotation is changing for pleaseTestMe parameter to @CustomAnnotationB() annnotation. The test should verify that the hash of the method changes.

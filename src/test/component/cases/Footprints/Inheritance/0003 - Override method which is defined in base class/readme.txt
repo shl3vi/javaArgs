@@ -1,0 +1,1 @@
+Should verify the structure and content of the footprints, for a basic console application thats uses inheritance. In this app a new instance of DerivedClass is created and we call the doMagic () method which overrides the implemetion defined in the BaseClass with the new implemention of the DerivedClass.  

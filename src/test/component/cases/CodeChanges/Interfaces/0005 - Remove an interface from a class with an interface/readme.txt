@@ -1,0 +1,1 @@
+In this app, the Employee class implements the IDoWork & IDoAdditionalWork interfaces and it is changed to implement only the IDoWork  interface (IDoAdditionalWork  is removed). The test should verify that the hash of the constructor changes.

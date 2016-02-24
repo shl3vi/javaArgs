@@ -1,0 +1,1 @@
+In this app, an anonymous method inside the invokeWork() method refers a captured value listed in the invokeWork() method, and the captured value changes. The test should verify that the hash of the anonymous method remind the same && the hash of the invokeWork method has been changed.

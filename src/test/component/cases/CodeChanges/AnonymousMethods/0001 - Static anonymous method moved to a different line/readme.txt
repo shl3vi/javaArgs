@@ -1,0 +1,1 @@
+In this app, the Employee class contains an anonymous method (as STATIC member) which moves to a different line. The test should verify that the hash of the anonymous method remains the same.

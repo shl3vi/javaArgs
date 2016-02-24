@@ -1,0 +1,1 @@
+Should verify the structure and content of the footprints, for a basic console application. In this app we use the Utils class to invoke the generic method "fromArrayToCollection()" twice, each time with different type and see that we have a single footprint with two hits on it.

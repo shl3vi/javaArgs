@@ -1,0 +1,1 @@
+In this app, the MegaBox class inherits from the Box<T> class where T is Integer. The test changes MegaBox to inherit from Box<T> class where T is String. The test should verify that the hash of MegaBox's constructor changes.

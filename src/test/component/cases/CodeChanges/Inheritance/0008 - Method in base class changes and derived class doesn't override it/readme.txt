@@ -1,0 +1,1 @@
+In this app, the Employee class inherits from the Person class. Person have the sayHello() method which Employee DOESN'T override . The sayHello() method is changed. The test should verify that the hash of sayHello() changes when invoked from both an instance of Employee and Person.

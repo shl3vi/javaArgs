@@ -1,0 +1,1 @@
+Should verify the structure and content of the footprints, for a basic console application. In this app an a calculator have two different anonymous methods - one that adds number and one that substracts them. The anonymous method are exposed via a standart API (add() & sub()) functions which invoke each anonymous method.

@@ -1,0 +1,1 @@
+In this app, an interface named IDoWork is implemented by the Employee class and then changed to extend the IMarkerInterface. The test should verify that the hash of the constructor changes.

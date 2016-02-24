@@ -1,0 +1,1 @@
+Should verify the structure and content of the footprints, for a basic console application. In this app we create an instance from the Person class and verify that footprints for the static method "myStaticMethod()" are collected when we invoke it using reflection.

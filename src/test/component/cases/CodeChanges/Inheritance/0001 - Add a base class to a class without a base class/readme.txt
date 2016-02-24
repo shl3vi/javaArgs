@@ -1,0 +1,1 @@
+In this app, the Employee class which has no base class is changed to inherit from the Person class. The test should verify that the hash of the constructor changes.

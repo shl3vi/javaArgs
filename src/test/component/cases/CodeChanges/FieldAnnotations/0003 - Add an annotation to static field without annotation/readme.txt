@@ -1,0 +1,1 @@
+In this app the @CustomAnnotationB() annotation is added to the static field. The test should verify that the hash of the constructor changes.

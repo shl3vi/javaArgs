@@ -1,0 +1,1 @@
+In this app, add comments to class. The test should verify that the hash of the main constructor does not changes.

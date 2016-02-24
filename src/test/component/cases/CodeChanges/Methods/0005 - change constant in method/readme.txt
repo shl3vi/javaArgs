@@ -1,0 +1,1 @@
+In this app the we change the value of constant variable. The test should verify that the hash of the method changes.

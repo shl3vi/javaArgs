@@ -1,0 +1,1 @@
+Should verify instrumenting methods on base classes

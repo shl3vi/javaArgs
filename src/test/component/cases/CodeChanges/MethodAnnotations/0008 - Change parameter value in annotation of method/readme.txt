@@ -1,0 +1,1 @@
+In this app the value of parameter a of @CustomAnnotationA() annotation is changing from "aaa" to "bbb". The test should verify that the hash of the method changes.

@@ -1,0 +1,1 @@
+In this app, an interface named IDoWork is removed from the Employee class. The test should verify that the hash of the constructor changes.

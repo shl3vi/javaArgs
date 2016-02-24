@@ -1,0 +1,1 @@
+Should verify the structure and content of the footprints, for a basic console application. In this app we create two instances of anonymous types which implement the IDoWork interface. Both of the instances invoke the "doWork()" method, however we expect to see different footprint per instance rather than a single footprint with two hits.

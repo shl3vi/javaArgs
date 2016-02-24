@@ -1,0 +1,1 @@
+Should verify the structure and content of the footprints, for a basic console application. In this app we create an instance from the Person class and verify that footprints for the private user defined parameterless constructor are sent as expected.  In order to run the constructor, a call is being made to that static method "createPerson()".

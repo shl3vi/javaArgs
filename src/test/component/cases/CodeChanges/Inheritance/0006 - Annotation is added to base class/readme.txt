@@ -1,0 +1,1 @@
+In this app, the Employee class inherits from the Person class. The test adds the @Deprecated annotation to Person. The test should verify that the hash of Person's constructor changes, thus ensuring that derived classes will be affected.

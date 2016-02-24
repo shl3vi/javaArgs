@@ -1,0 +1,1 @@
+In this app, the Employee class changes to final class. The test should verify that the hash of the constructor changes.

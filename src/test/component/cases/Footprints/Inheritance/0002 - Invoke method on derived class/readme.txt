@@ -1,0 +1,1 @@
+Should verify the structure and content of the footprints, for a basic console application thats uses inheritance. In this app a new instance of DerivedClass is created and we call the doWork() method which is defined in the DerivedClass. 

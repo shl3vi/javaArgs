@@ -1,0 +1,1 @@
+In this app the @Deprecated()  annotation is removed from the TestMe method. The test should verify that the hash of the method changes.

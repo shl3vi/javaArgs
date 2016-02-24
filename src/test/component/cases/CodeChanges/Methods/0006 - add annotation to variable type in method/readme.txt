@@ -1,0 +1,1 @@
+In this app the we add an annotation to type of variable. The test should verify that the hash of the method changes.

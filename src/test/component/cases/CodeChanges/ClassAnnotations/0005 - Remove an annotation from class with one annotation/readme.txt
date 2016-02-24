@@ -1,0 +1,1 @@
+In this app the @CustomAnnotationA()  annotation is removed from the class. The test should verify that the hash of the constructor changes.

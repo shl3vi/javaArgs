@@ -1,0 +1,11 @@
+{
+  "customerId": "SeaLights",
+  "appName": "SL.OnPremise.Agents.Java",
+  "server": "http://dev-java.sealights.co:8080/api",
+  "proxy": "http://127.0.0.1:8001",
+  "interval": 500,
+  "enabled": true,
+  "environmentName": "ComponentTests Env",
+  "maxQueueSize": 1,
+  "instrumentedPackages":["io.demo", "io.moise"]
+}

@@ -1,0 +1,1 @@
+In this app, the Employee class inherits from the Person class. Person have the sayHello() method which Employee overrides and calls Person's sayHello using the "super" keyword. The sayHello() method is changed on the Person class. The test should verify that the hash of sayHello() changes just for the Person class.

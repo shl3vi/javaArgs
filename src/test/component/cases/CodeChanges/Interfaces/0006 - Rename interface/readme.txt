@@ -1,0 +1,1 @@
+In this app, the interface named IDoWork is implmented by the Employee class and renamed to IDoMagic. The test should verify that the hash of the constructor changes.

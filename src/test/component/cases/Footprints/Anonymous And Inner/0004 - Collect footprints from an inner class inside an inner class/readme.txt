@@ -1,0 +1,1 @@
+Should verify the structure and content of the footprints, for a basic console application. In this app an instance of Person which uses an inner class called Address. We verify that footprints are collected from both of the classes.

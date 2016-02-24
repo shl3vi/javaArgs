@@ -1,0 +1,1 @@
+In this app, change the name of inner class. The test should verify that the hash of the main constructor changes.

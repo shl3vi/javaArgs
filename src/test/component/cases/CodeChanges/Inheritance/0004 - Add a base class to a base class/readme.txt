@@ -1,0 +1,1 @@
+In this app, the Employee class inherits from the Person class, and Person is changed to inherit from Mammal. The test should verify that the hash of Person's constructor changes.

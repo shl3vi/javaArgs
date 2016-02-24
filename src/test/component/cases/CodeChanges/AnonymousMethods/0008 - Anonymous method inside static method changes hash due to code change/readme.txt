@@ -1,0 +1,1 @@
+In this app, an anonymous method inside the STATIC getSalary() method changes  - plus (+) sign is changed to star (*). The test should verify that the hash of the anonymous method changes.

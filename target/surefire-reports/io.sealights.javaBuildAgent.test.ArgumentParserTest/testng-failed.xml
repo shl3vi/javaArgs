@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [io.sealights.javaBuildAgent.test.ArgumentParserTest]">
+  <test name="Command line test(failed)" preserve-order="false">
+    <classes>
+      <class name="io.sealights.javaBuildAgent.test.ArgumentParserTest">
+        <methods>
+          <include name="giveGoodInput"/>
+          <include name="givefalseArgument_shouldGetParseException"/>
+          <include name="skipRequiredArg_shouldGetParseException"/>
+          <include name="DontGiveModeArgs_shouldGiveHelpText"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>
